@@ -1,0 +1,33 @@
+version: '3'
+
+services:
+
+  backend:
+    container_name: backend_prod
+    build: ./
+    volumes:
+      - .:/app
+      - ./static:/static
+    working_dir: /app
+    ports:
+      - "8000:8000"
+    environment:
+      - DEBUG=True
+    command: bash -c "gunicorn djangovue.wsgi -b 0.0.0.0:8000"
+
+  nginx:
+    container_name: nginx
+    build:
+      context: ./
+      dockerfile: ./nginx/Dockerfile
+    image: nginx
+    restart: always
+    volumes:
+      - ./server/static/admin:/usr/share/nginx/html/static/admin
+    ports:
+      - "80:80"
+    depends_on:
+      - backend
+    command: nginx -g 'daemon off';
+
+

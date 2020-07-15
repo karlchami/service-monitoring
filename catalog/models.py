@@ -31,7 +31,7 @@ class Client(models.Model):
         db_table = 'Client'
 
 class Clientworkflow(models.Model):
-    clientid = models.ForeignKey(Client, models.DO_NOTHING, db_column='ClientId', primary_key=True, related_name="clientworkflow_client")  # Field name made lowercase.
+    clientid = models.ForeignKey(Client, models.DO_NOTHING, db_column='ClientId', related_name="clientworkflow_client")  # Field name made lowercase.
     workflowid = models.ForeignKey('Workflow', models.DO_NOTHING, db_column='WorkflowId', related_name="clientworkflow_workflow")  # Field name made lowercase.
 
     class Meta:
@@ -132,7 +132,7 @@ class Resultdetail(models.Model):
         db_table = 'ResultDetail'
 
 class Resultdetailtext(models.Model):
-    resultdetailid = models.ForeignKey(Resultdetail, models.DO_NOTHING, db_column='ResultDetailId', primary_key=True, related_name= 'result_detail')  # Field name made lowercase.
+    resultdetailid = models.ForeignKey(Resultdetail, models.DO_NOTHING, db_column='ResultDetailId', related_name= 'result_detail')  # Field name made lowercase.
     details = models.TextField(db_column='Details', blank=True, null=True)  # Field name made lowercase.
 
     class Meta:
