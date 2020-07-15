@@ -1,0 +1,32 @@
+{
+    "count": 11,
+    "next": "http://127.0.0.1:8000/get_test_list/?limit=5&offset=5",
+    "previous": null,
+    "results": [
+        {
+            "test_id": "117",
+            "test_name": "GI2Servers",
+            "state": "Failed"
+        },
+        {
+            "test_id": "112",
+            "test_name": "Applications Status",
+            "state": "Warning"
+        },
+        {
+            "test_id": "118",
+            "test_name": "Hosts Status",
+            "state": "Success"
+        },
+        {
+            "test_id": "121",
+            "test_name": "RM - Report",
+            "state": "Success"
+        },
+        {
+            "test_id": "116",
+            "test_name": "GAX",
+            "state": "Success"
+        }
+    ]
+}

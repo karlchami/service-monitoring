@@ -1,0 +1,13 @@
+version: '3'
+
+services:
+    api:
+        environment:
+            - PYTHONUNBUFFERED=1
+        build: .
+        volumes:
+            - .:/code
+        ports:
+            - "0.0.0.0::8000"
+        container_name: api
+        command: python manage.py test

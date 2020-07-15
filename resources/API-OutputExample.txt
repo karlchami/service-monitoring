@@ -1,0 +1,159 @@
+GET /get_all_data/
+
+HTTP 200 OK
+Allow: GET, HEAD, OPTIONS
+Content-Type: application/json
+Vary: Accept
+
+{
+    "count": 792,
+    "next": "http://127.0.0.1:8000/get_all_data/?page=2",
+    "previous": null,
+    "results": [
+        {
+            "id": 2060,
+            "result_detail": [
+                {
+                    "resultdetailid": 2060,
+                    "details": "Internal BPA error, pls check (GA - Alarms) task"
+                }
+            ],
+            "starttime": "2020-05-28T21:35:53Z",
+            "endtime": "2020-05-28T21:37:07Z",
+            "resultid": {
+                "id": 152,
+                "executiondate": "2020-05-28T21:35:53Z",
+                "agentid": {
+                    "id": 1012,
+                    "name": "PCBEVDAPRGTLS01",
+                    "bpaagentname": "CIBC - PCBEVDAPRGTLS01"
+                },
+                "clientid": {
+                    "id": 12,
+                    "name": "CIBC"
+                },
+                "environmentid": {
+                    "id": 12,
+                    "name": "PROD"
+                }
+            },
+            "testid": {
+                "id": 115,
+                "name": "GA - Alarms",
+                "taskid": {
+                    "id": 114,
+                    "name": "CIBC : PROD - Genesys - GA - Alarms",
+                    "workflowid": {
+                        "id": 11,
+                        "name": "CIBC : PROD - Genesys - Sanity Check",
+                        "technologyid": {
+                            "id": 12,
+                            "name": "Genesys"
+                        }
+                    }
+                }
+            },
+            "stateid": {
+                "id": 27,
+                "name": "Failed"
+            },
+            "triggerid": {
+                "id": 17,
+                "name": "Schedule"
+            }
+        },
+        {
+            "id": 2061,
+            "result_detail": [],
+            "starttime": "2020-05-28T21:39:53Z",
+            "endtime": "2020-05-28T21:41:32Z",
+            "resultid": {
+                "id": 152,
+                "executiondate": "2020-05-28T21:35:53Z",
+                "agentid": {
+                    "id": 1012,
+                    "name": "PCBEVDAPRGTLS01",
+                    "bpaagentname": "CIBC - PCBEVDAPRGTLS01"
+                },
+                "clientid": {
+                    "id": 12,
+                    "name": "CIBC"
+                },
+                "environmentid": {
+                    "id": 12,
+                    "name": "PROD"
+                }
+            },
+            "testid": {
+                "id": 112,
+                "name": "Applications Status",
+                "taskid": {
+                    "id": 115,
+                    "name": "CIBC : PROD - Genesys - GA Applications",
+                    "workflowid": {
+                        "id": 11,
+                        "name": "CIBC : PROD - Genesys - Sanity Check",
+                        "technologyid": {
+                            "id": 12,
+                            "name": "Genesys"
+                        }
+                    }
+                }
+            },
+            "stateid": {
+                "id": 28,
+                "name": "Success"
+            },
+            "triggerid": {
+                "id": 16,
+                "name": "Manual"
+            }
+        },
+        {
+            "id": 2062,
+            "result_detail": [],
+            "starttime": "2020-05-28T21:37:18Z",
+            "endtime": "2020-05-28T21:38:19Z",
+            "resultid": {
+                "id": 152,
+                "executiondate": "2020-05-28T21:35:53Z",
+                "agentid": {
+                    "id": 1012,
+                    "name": "PCBEVDAPRGTLS01",
+                    "bpaagentname": "CIBC - PCBEVDAPRGTLS01"
+                },
+                "clientid": {
+                    "id": 12,
+                    "name": "CIBC"
+                },
+                "environmentid": {
+                    "id": 12,
+                    "name": "PROD"
+                }
+            },
+            "testid": {
+                "id": 118,
+                "name": "Hosts Status",
+                "taskid": {
+                    "id": 116,
+                    "name": "CIBC : PROD - Genesys - GA Hosts",
+                    "workflowid": {
+                        "id": 11,
+                        "name": "CIBC : PROD - Genesys - Sanity Check",
+                        "technologyid": {
+                            "id": 12,
+                            "name": "Genesys"
+                        }
+                    }
+                }
+            },
+            "stateid": {
+                "id": 28,
+                "name": "Success"
+            },
+            "triggerid": {
+                "id": 16,
+                "name": "Manual"
+            }
+        }
+	]

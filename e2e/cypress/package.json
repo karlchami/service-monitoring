@@ -1,0 +1,19 @@
+{
+  "name": "cypress_testing_ucsi",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "cypress": "^4.8.0",
+    "cypress-cucumber-preprocessor": "^2.5.0",
+    "eslint": "^7.2.0",
+    "eslint-plugin-cypress": "^2.11.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "cypress:open": "cypress open"
+  },
+  "author": "",
+  "license": "ISC"
+}

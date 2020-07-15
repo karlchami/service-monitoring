@@ -1,0 +1,109 @@
+html,
+body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+}
+#app {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: #2c3e50;
+}
+body {
+  background: white !important;
+  overflow-y: hidden !important;
+}
+::-webkit-scrollbar {
+  width: 5px;
+}
+::-webkit-scrollbar-track {
+  background: #e6e6e6;
+}
+::-webkit-scrollbar-thumb {
+  background: rgb(170, 203, 230) !important;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: rgb(170, 203, 230) !important;
+}
+.v-data-footer__select {
+  flex-basis: auto;
+}
+
+.v-data-footer__select .v-select {
+  flex-basis: 50px;
+}
+
+.v-data-footer__select .v-select .v-select__selections {
+  flex-basis: auto;
+  min-width: 25px;
+}
+
+.v-list-item__content {
+  flex: 1 1 auto;
+  min-width: 50px;
+}
+
+.search-section {
+  border: 0.5px solid rgba(0, 0, 0, 0.082);
+  padding-top: 0px !important;
+}
+
+.sortable {
+  font-size: 16px !important;
+}
+
+.sortable:active {
+  color: rgb(0, 0, 0) !important;
+}
+
+tr {
+  cursor: pointer;
+}
+
+tr:hover {
+  font-size: 20px !important;
+}
+
+th:hover {
+  color: black !important;
+}
+
+.v-chip {
+  transition: transform 0.1s cubic-bezier(0.32, 0, 0.67, 0);
+  width: 40px !important;
+  text-align: center !important;
+  display: inline-block;
+  float: none;
+}
+
+.v-chip:hover {
+  transform: scale(1.2);
+}
+
+td.text-start {
+  font-size: 16px;
+}
+
+.custom {
+  cursor: pointer;
+}
+
+.extend-chip-width {
+  width: 60px !important;
+}
+
+.extend-chip-width-icon {
+  width: 100px !important;
+}
+
+@media screen and (max-width: 1366px) {
+  .media-height {
+    z-index: 0;
+    width: 80% !important;
+    height: 95vh !important;
+    overflow-x: hidden;
+    overflow-y: auto;
+    transform: scale(0.88);
+    margin-top: -2%;
+  }
+}

@@ -1,0 +1,71 @@
+{
+    "count": 1,
+    "next": null,
+    "previous": null,
+    "results": [
+        {
+            "id": 3716,
+            "result_detail": [
+                {
+                    "resultdetailid": 3716,
+                    "details": "PCBELEPPRGII01.ConnectionServer: Initializing - Disabled <br/>PCBEVDAPRGII01.ConnectionServer32: Initializing - Disabled <br/>"
+                }
+            ],
+            "starttime": "2020-07-07T06:45:53Z",
+            "endtime": "2020-07-07T06:47:05Z",
+            "resultid": {
+                "id": 302,
+                "executiondate": "2020-07-07T06:35:59Z",
+                "agentid": {
+                    "id": 1012,
+                    "name": "PCBEVDAPRGTLS01",
+                    "bpaagentname": "CIBC - PCBEVDAPRGTLS01"
+                },
+                "clientid": {
+                    "id": 12,
+                    "name": "CIBC"
+                },
+                "environmentid": {
+                    "id": 12,
+                    "name": "PROD"
+                },
+                "workflowid": {
+                    "id": 11,
+                    "name": "CIBC : PROD - Genesys - Sanity Check",
+                    "technologyid": {
+                        "id": 12,
+                        "name": "Genesys"
+                    }
+                },
+                "technologyid": {
+                    "id": 12,
+                    "name": "Genesys"
+                }
+            },
+            "testid": {
+                "id": 117,
+                "name": "GI2Servers",
+                "taskid": {
+                    "id": 118,
+                    "name": "CIBC : PROD - Genesys - GI2 Servers",
+                    "workflowid": {
+                        "id": 11,
+                        "name": "CIBC : PROD - Genesys - Sanity Check",
+                        "technologyid": {
+                            "id": 12,
+                            "name": "Genesys"
+                        }
+                    }
+                }
+            },
+            "stateid": {
+                "id": 27,
+                "name": "Failed"
+            },
+            "triggerid": {
+                "id": 16,
+                "name": "Manual"
+            }
+        }
+    ]
+}

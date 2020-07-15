@@ -1,0 +1,32 @@
+{
+    "count": 9,
+    "next": "http://127.0.0.1:8000/get_test_list/?limit=5&offset=5&state=success",
+    "previous": null,
+    "results": [
+        {
+            "test_id": "115",
+            "test_name": "GA - Alarms",
+            "state": "Success"
+        },
+        {
+            "test_id": "118",
+            "test_name": "Hosts Status",
+            "state": "Success"
+        },
+        {
+            "test_id": "121",
+            "test_name": "RM - Report",
+            "state": "Success"
+        },
+        {
+            "test_id": "116",
+            "test_name": "GAX",
+            "state": "Success"
+        },
+        {
+            "test_id": "113",
+            "test_name": "CSPCheck",
+            "state": "Success"
+        }
+    ]
+}

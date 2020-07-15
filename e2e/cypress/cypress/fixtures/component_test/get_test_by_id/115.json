@@ -1,0 +1,66 @@
+{
+    "count": 1,
+    "next": null,
+    "previous": null,
+    "results": [
+        {
+            "id": 3710,
+            "result_detail": [],
+            "starttime": "2020-07-07T06:35:59Z",
+            "endtime": "2020-07-07T06:38:32Z",
+            "resultid": {
+                "id": 302,
+                "executiondate": "2020-07-07T06:35:59Z",
+                "agentid": {
+                    "id": 1012,
+                    "name": "PCBEVDAPRGTLS01",
+                    "bpaagentname": "CIBC - PCBEVDAPRGTLS01"
+                },
+                "clientid": {
+                    "id": 12,
+                    "name": "CIBC"
+                },
+                "environmentid": {
+                    "id": 12,
+                    "name": "PROD"
+                },
+                "workflowid": {
+                    "id": 11,
+                    "name": "CIBC : PROD - Genesys - Sanity Check",
+                    "technologyid": {
+                        "id": 12,
+                        "name": "Genesys"
+                    }
+                },
+                "technologyid": {
+                    "id": 12,
+                    "name": "Genesys"
+                }
+            },
+            "testid": {
+                "id": 115,
+                "name": "GA - Alarms",
+                "taskid": {
+                    "id": 114,
+                    "name": "CIBC : PROD - Genesys - GA - Alarms",
+                    "workflowid": {
+                        "id": 11,
+                        "name": "CIBC : PROD - Genesys - Sanity Check",
+                        "technologyid": {
+                            "id": 12,
+                            "name": "Genesys"
+                        }
+                    }
+                }
+            },
+            "stateid": {
+                "id": 28,
+                "name": "Success"
+            },
+            "triggerid": {
+                "id": 16,
+                "name": "Manual"
+            }
+        }
+    ]
+}
